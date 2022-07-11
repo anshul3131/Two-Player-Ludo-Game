@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 62.5%;
+}
+.title{
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    border: 2px solid black;
+    background-color: black;
+    color: #40e419;
+    font-size: 1rem;
+}
+.game{
+    border: 2px solid black;
+    width: 99.7656%;
+    height: 88.251%;
+    background-image: url("https://media1.giphy.com/media/Xf2I5odqo0GYepmNpd/giphy.gif?cid=ecf05e47r7mjd2qbm2bpivc595virarf3b0fw50gz4nvcbnq&rid=giphy.gif&ct=g");
+    position: absolute;
+}
+.grid{
+    width: 41.98%;
+    height: 100%;
+    left: 28.71%;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+.blocks{
+    width: 98%;
+    height: 100%;
+    background-color: #0d11dc;
+    border: 1px #23ec1c inset;
+    border-radius: 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+#A{
+    height: 31.39717%;
+    position: absolute;
+    border: 2px solid black;
+    width: 16%;
+    left: 9%;
+    margin: 1%;
+    background-color: #88ff00;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#B{
+    height: 31.39717%;
+    position: absolute;
+    border: 2px solid black;
+    width: 16%;
+    margin: 420px 1% 1% 1%;
+    right: 9%;
+    bottom: 0%;
+    background-color: #88ff00;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#middle{
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 8;
+    width: 100%;
+    height: 100%;
+    background-color: #46ff00;
+    
+}
+.dice{
+    background-color: blueviolet;
+    width: 25.3%;
+    height: 26%;
+    position: absolute;
+    bottom: 37%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    right: 37%;
+}
+#Turn{
+    background-color: #d01cce;
+    font-size: 2rem;
+    text-align: center;
+}
+#Roll{
+    background-color: greenyellow;
+}
+#roll{
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+    font-weight: 800;
+}
+#temp{
+    font-size: 3rem;  
+    text-align: center;
+}
+#roll:hover{
+    background-color: rgb(16, 182, 16);
+}
+#Player1{
+    font-size: 4rem;
+    text-align: center;
+}
+#Player2{
+    font-size: 4rem;
+    text-align: center;
+}

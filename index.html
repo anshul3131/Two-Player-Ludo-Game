@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ludo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <audio src="backgroundmusic.mp3" id = "mymusic"></audio>
+    <div class="title">
+        <h1>THE GRAND LUDO GAME</h1>
+    </div>
+    <div class="game">
+        <div class="locker_name" onclick = "LockerA" id="A">
+            <h2>Locker for A</h2>
+            <h1>1 A</h1>
+        </div>
+        <div class="grid">
+            <div class="blocks" id="Player1">A</div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks" id = "middle">
+                <div class="dice">
+                    <div id="Turn">A's Turn</div>
+                    <div id="Roll"><button id="roll" onclick="myScript()">ROLL!</button></div>
+                    <div id="temp"></div>
+                </div>
+            </div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks"></div>
+            <div class="blocks" id="Player2">B</div>
+        </div>
+        <div class="locker_name" id="B" onclick = "LockerB">
+            <h2>Locker for B</h2>
+            <h1>1 B</h1>
+        </div>
+    </div>
+</body>
+</html>
