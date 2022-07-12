@@ -185,6 +185,16 @@ function myScript() {
                         document.querySelector('#A > h1').innerHTML = String(1 - a) + ' A';
                     }
                 }
+                else if(indexA==8){
+                    block[indexA].style.backgroundColor = '#0d11dc'
+                    block[indexA].innerHTML = '';
+                    indexA = -1;
+                    x--;
+                    token1A++;
+                    document.getElementById('middle').innerHTML = 'A WINS';
+                    document.getElementById('middle').style.textAlign = 'center';
+                    document.getElementById('middle').style.fontSize = '8rem';
+                }
             }
             if (cnt % 2 == 0)
                 document.getElementById("Turn").textContent = "A's Turn"
